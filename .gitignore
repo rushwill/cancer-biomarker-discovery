@@ -6,12 +6,15 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Virtual Environment
-venv/
-env/
+.venv/
 
-# Data
-data/raw/
-data/processed/
+# Raw and processed data
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # OS files
 .DS_Store
